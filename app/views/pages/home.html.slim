@@ -1,4 +1,10 @@
+-title("Home")
 .row
   .columns
-    h2
-      = title("Home")
+    h4
+      = link_to("Leave a feedback", new_feedback_path)
+      |  now
+      - unless signed_in?
+        |  , or
+        = link_to(" sign up", new_user_registration_path)
+        |  first

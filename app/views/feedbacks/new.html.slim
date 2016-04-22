@@ -1,0 +1,7 @@
+.feedback-wrapper
+  -title("Leave a feedback")
+  = simple_form_for feedback, html: { class: "feedbackForm" } do |f|
+    = f.input :name
+    = f.input :text
+    = f.button :submit, "Отправить"
+
