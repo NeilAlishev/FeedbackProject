@@ -41,4 +41,4 @@ bin/server
 
 ## Staging
 
-* http://fs-rails-base.herokuapp.com
+* https://shrouded-badlands-15485.herokuapp.com
